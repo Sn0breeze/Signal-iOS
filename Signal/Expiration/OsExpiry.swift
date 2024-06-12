@@ -8,7 +8,7 @@ import Foundation
 struct OsExpiry {
     static var `default`: OsExpiry {
         return OsExpiry(
-            minimumIosMajorVersion: 15,
+            minimumIosMajorVersion: 14,
             // 2024-10-01 00:00:00 UTC
             enforcedAfter: Date(timeIntervalSince1970: 1727740800)
         )
